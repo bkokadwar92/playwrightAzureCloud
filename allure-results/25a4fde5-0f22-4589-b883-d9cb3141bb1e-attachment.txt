@@ -1,0 +1,1 @@
+[2026-06-25 18:22:13] [info] [LoginPage] loginAs standard_user

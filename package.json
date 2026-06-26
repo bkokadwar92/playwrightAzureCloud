@@ -1,0 +1,36 @@
+{
+  "name": "playwrightfw_ex2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "playwright test --headed",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "validate": "npm run type-check && npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
+    "allure-playwright": "^3.10.0",
+    "csv-parser": "^3.2.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^9.39.4",
+    "typescript": "^6.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
+  }
+}
