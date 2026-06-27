@@ -8,7 +8,7 @@ test.describe('Login Page', ()=>{
 
     })
 
-    test('Login Scenario',async ({page})=>{
+    test('Login test case',async ({page})=>{
         test.step('Login as standard_user', async ()=>{
             let loginPage = new LoginPage(page);
             await loginPage.loginAs('standard_user','tta_secret');
