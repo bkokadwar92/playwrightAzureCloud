@@ -21,7 +21,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - name: Verify Secret
       run: |
-        echo "PLAYWRIGHT_SERVICE_URL exists: ${{ secrets.PLAYWRIGHT_SERVICE_URL != '' }}"
+        echo "PLAYWRIGHT_SERVICE_URL exists: ${{ vars.PLAYWRIGHT_SERVICE_URL != '' }}"
     - name: Run Playwright tests
       env:
         PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
