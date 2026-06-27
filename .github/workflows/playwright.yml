@@ -19,6 +19,9 @@ jobs:
       uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Verify Secret
+      run: |
+        echo "PLAYWRIGHT_SERVICE_URL exists: ${{ secrets.PLAYWRIGHT_SERVICE_URL != '' }}"
     - name: Run Playwright tests
       env:
         PLAYWRIGHT_SERVICE_URL: ${{ secrets.PLAYWRIGHT_SERVICE_URL }}
