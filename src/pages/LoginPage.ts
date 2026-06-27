@@ -35,6 +35,7 @@ export class LoginPage extends BasePage {
     }
 
     async loginAs(username: string, password: string): Promise<void> {
+        //Login function
         this.log.info(`loginAs ${username}`);
         await this.el.waitForVisible(this.usernameInput);
         await this.el.waitForVisible(this.passwordInput);
