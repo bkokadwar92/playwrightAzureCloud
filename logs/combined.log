@@ -17,3 +17,4 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"loginAs standard_user","scope":"LoginPage","service":"playwright-fw","timestamp":"2026-06-25 18:23:51"}
 {"level":"\u001b[32minfo\u001b[39m","message":"loginAs standard_user","scope":"LoginPage","service":"playwright-fw","timestamp":"2026-06-25 18:24:45"}
 {"level":"\u001b[32minfo\u001b[39m","message":"loginAs standard_user","scope":"LoginPage","service":"playwright-fw","timestamp":"2026-06-25 18:30:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"loginAs standard_user","scope":"LoginPage","service":"playwright-fw","timestamp":"2026-06-27 09:27:13"}
