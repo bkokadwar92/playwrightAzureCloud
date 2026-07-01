@@ -7,7 +7,7 @@ test.describe('Login Page', ()=>{
         await loginPage.open();
 
     })
-
+    //Login test case
     test('Login test case',async ({page})=>{
         test.step('Login as standard_user', async ()=>{
             let loginPage = new LoginPage(page);
